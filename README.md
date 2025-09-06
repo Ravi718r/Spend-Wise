@@ -76,7 +76,7 @@ Profile Management → Update profile, manage login/logout
 
 Clone the Repository
 
-git clone https://github.com/your-username/spend-wise.git
+git clone [https://github.com/your-username/spend-wise.git](https://github.com/Ravi718r/Spend-Wise/tree/master)
 
 
 Open in Android Studio
@@ -91,9 +91,7 @@ Create a project & add google-services.json to app/
 
 Sync Gradle & Run the App
 
-📷 Screenshots
-Home Screen	Add Expense	Monthly Report
-(Add later)	(Add later)	(Add later)
+
 🤝 Contributing
 
 Contributions are welcome!
