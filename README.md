@@ -1,42 +1,32 @@
-Spend Wise – Personal Expense Tracker
+📱 Spend Wise – Personal Expense Tracker
 
-Spend Wise is an Android application developed using Kotlin and Jetpack Compose. It helps users track expenses and income, set monthly limits, visualize spending trends using graphs and bar charts, and manage their finances effectively. The app integrates Firebase Authentication, Firestore Database, and Analytics, with smooth navigation and a clean MVVM architecture.
+Spend Wise is an Android app built using Kotlin and Jetpack Compose that helps users track expenses and income, set monthly limits, visualize spending trends using graphs and bar charts, and manage their finances effortlessly. It features Firebase authentication, Firestore database, notifications, and smooth navigation with MVVM architecture.
 
-1. Overview
+✨ Features
 
-Spend Wise simplifies personal finance management by providing insights into income and expenses, enabling users to plan better and save more. The app is designed with Jetpack Compose for a modern UI experience and follows MVVM architecture for clean and maintainable code.
+✅ User Authentication – Login & Logout using Firebase Auth
+✅ Add Income & Expense – Track all your transactions easily
+✅ Budget Management – Set monthly limits and get notified when exceeded
+✅ Analytics Dashboard – Visualize spending using graphs & bar charts
+✅ Notifications – Smart reminders for savings and limits
+✅ Smooth Navigation – Powered by Jetpack Compose Navigation
+✅ MVVM Architecture – Clean, scalable, and maintainable code
+✅ Firestore Integration – Secure cloud-based data storage
 
-2. Features
-
-User Authentication → Secure login and logout using Firebase Auth
-
-Add Income & Expenses → Track all financial transactions
-
-Budget Management → Set monthly spending limits and get notified when exceeded
-
-Data Visualization → Analyze spending patterns with graphs and bar charts
-
-Notifications → Get alerts about budgets and savings
-
-Smooth Navigation → Built with Jetpack Compose Navigation
-
-MVVM Architecture → Ensures scalability, maintainability, and testability
-
-Firestore Integration → Real-time cloud-based database support
-
-3. Tech Stack
+🛠️ Tech Stack
 Category	Technology Used
 Language	Kotlin
 UI Toolkit	Jetpack Compose
 Architecture	MVVM (Model-View-ViewModel)
-Navigation	Accompanist Navigation + Navigation-Compose
+Navigation	Accompanist Navigation & Navigation-Compose
 Database	Firebase Firestore
 Authentication	Firebase Auth
 State Management	ViewModel + StateFlow
 Image Loading	Coil
+Charts	Compose-based custom graphs & bar charts
 Notifications	Firebase + Local Notifications
-4. Dependencies
-// Jetpack Compose & Material Design
+📦 Dependencies
+// Jetpack Compose & Material
 implementation("androidx.compose.material:material:1.6.8")
 implementation("androidx.compose.material:material-icons-extended:1.5.4")
 implementation("androidx.navigation:navigation-compose:2.7.7")
@@ -48,41 +38,41 @@ implementation("io.coil-kt:coil-compose:2.4.0")
 // Accompanist for Smooth Navigation
 implementation("com.google.accompanist:accompanist-navigation-animation:0.34.0")
 
-// Firebase Integration
+// Firebase
 implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
 implementation("com.google.firebase:firebase-auth:22.3.0")
 implementation("com.google.firebase:firebase-firestore:24.10.0")
 implementation("com.google.firebase:firebase-analytics")
 
-5. Architecture
+🏛️ Architecture
 
-The app follows the MVVM (Model-View-ViewModel) pattern for a clean, modular, and testable architecture.
+The app follows MVVM (Model-View-ViewModel) for a clean, modular, and testable structure.
 
 spend_wise/
 │── model/             # Data models (Expense, Income, Budget, Notifications)
 │── view/              # Jetpack Compose UI screens
 │── viewmodel/         # ViewModels for state & data handling
-│── navigation/        # Navigation setup for Jetpack Compose
-│── ui/theme/          # App theming and color management
+│── navigation/        # App navigation setup
+│── ui/theme/          # App theming & colors
 │── repository/        # Data handling (Firestore, Local DB)
-│── utils/             # Helper classes and constants
+│── utils/             # Helper classes, constants
 │── MainActivity.kt    # App entry point
 
-6. Screens & Functionality
+📊 Screens & Features
 
-Home Screen → Overview of expenses, income, and budgets
+Home Screen → Overview of expenses, income & budget
 
-Add Transaction → Add income or expense records
+Add Transaction → Add income/expense easily
 
-Monthly Summary → View graphs and bar charts for expenses
+Monthly Summary → See bar charts & graphs for expenses
 
-Budget Settings → Set monthly limits and receive notifications
+Budget Settings → Set limits and get notified when exceeded
 
-Notifications → Alerts for budgets, savings, and reminders
+Notifications → Alerts for budgets and reminders
 
-Profile Management → Edit profile and manage account details
+Profile Management → Update profile, manage login/logout
 
-7. Installation & Setup
+🚀 Installation & Setup
 
 Clone the Repository
 
@@ -91,24 +81,24 @@ git clone https://github.com/your-username/spend-wise.git
 
 Open in Android Studio
 
-Go to File → Open → Spend Wise
+Select File → Open → Spend Wise
 
-Configure Firebase
+Set up Firebase
 
 Go to Firebase Console
 
 Create a project & add google-services.json to app/
 
-Sync Gradle and Run the App
+Sync Gradle & Run the App
 
-8. Screenshots
+📷 Screenshots
 Home Screen	Add Expense	Monthly Report
-(Coming Soon)	(Coming Soon)	(Coming Soon)
-9. Contributing
+(Add later)	(Add later)	(Add later)
+🤝 Contributing
 
-Contributions are always welcome!
-If you'd like to improve Spend Wise, fork the repository and submit a pull request.
+Contributions are welcome!
+If you'd like to improve Spend Wise, feel free to fork the repo and submit a pull request.
 
-10. License
+📜 License
 
 This project is licensed under the MIT License.
